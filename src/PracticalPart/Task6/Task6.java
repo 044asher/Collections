@@ -1,6 +1,7 @@
 package PracticalPart.Task6;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -60,8 +61,8 @@ public class Task6 {
         for (User user : users){
             System.out.println(user);
         }
-//        Collections.sort(users);
-//
+        Collections.sort(users);
+
 //        System.out.println("\nList after sorting: ");
 //        for (User user: users){
 //            System.out.println(user);
